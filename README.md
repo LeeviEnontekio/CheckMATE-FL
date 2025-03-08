@@ -21,18 +21,18 @@ Please refer to [Flwr Tensorflow Quickstart Guide](https://flower.ai/docs/framew
 
 ConvNext model weights can be downloaded from [here](https://github.com/leondgarse/keras_cv_attention_models?tab=readme-ov-file#convnext)
 
+
+Dataset downloads for: 
+- [UCF101](https://www.crcv.ucf.edu/research/data-sets/ucf101/)
+- [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
+
+
 # Dependencies
 
 - flwr
 - Tensorflow (should be installed automatically with flwr by following the quickstart guide)
 - OpenCV 
 - Ray (required for flwr simulation as flwr sometimes struggles to install it by itself)
-
-
-
-Dataset downloads: 
-- [UCF101](https://www.crcv.ucf.edu/research/data-sets/ucf101/)
-- [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
 
 
 
